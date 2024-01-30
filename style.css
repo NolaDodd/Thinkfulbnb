@@ -63,13 +63,14 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
 }
 
 header nav ul {
 display: flex;
 justify-content: center;
+padding: 2% 2% 0 2%
 }
 
 header nav ul li {
@@ -91,6 +92,7 @@ header nav ul li a:hover {
 .form-group {
   display: flex;
   flex: 1;
+  margin: 0px;
 }
 
 form {
@@ -110,6 +112,7 @@ form select,
 form input {
   margin: 10px 10px 20px 10px;
   flex: 2;
+  min-width: 0;
 }
 
 .center {
